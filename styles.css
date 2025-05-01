@@ -81,7 +81,6 @@ ul{
 .name{
     width: 70%;
     height: auto;
-2
 }
 
 .black{
@@ -109,6 +108,7 @@ a:hover {
     position: relative; /* this is key! */
     width: fit-content;     /* match the size of your images */
     height: auto;
+    alig
 
 }
 
