@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandra McIntyre</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body class="body">
+    <div class="container-fluid">
+    <div class="fuzzy-bubbles-b">Ali McIntyre</div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1 d-none d-md-block"></div>
+            <div class="col-12 col-md-5">
+                <div class="row"><div class="col"><img class='name' src="images/ali.png" alt="ALI"></div>
+                <div class="col d-block d-lg-none text-end"><img src="images/Happy.png" alt="Smiley face emoji"></div>
+            </div>
+                <div class="row"><text class="fuzzy-bubbles-med">I am a software engineer studying Applied Math-Computer Science at Brown University, 
+                    with a special interest in artificial intelligence.</text>
+                    <text class="fuzzy-bubbles-regular">I'm passionate about the intersection of coding and creativity 
+                    and am currently applying these interests while working with <a class='black' href="https://www.bridgeline.com" target="_blank">Bridgeline Digital</a>.</text>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-5"><div class="podcast-display">
+                <img class="img-fluid" src='images/podcast.png' alt='headshot with podcast background'>
+                <a href="https://rss.com/podcasts/ecommerce-ai/1861305/" target="_blank" class="play-button" tabindex="0"></a>
+                </div></div>
+            <div class="col-12 col-lg-2"><div class="row mt-5 mb-4"><span class="fuzzy-bubbles-big">More of me:</span></div>
+            <div class="row">
+        <div class="col-12 col-lg-12 col-md-4 pt-1 mb-3 text-center"><text class='inter-b'><a class='black-blue' href="https://drive.google.com/file/d/1Azq55YPaueSlhSIbSKgDeE1pQb2WZSHP/view?usp=sharing" target="_blank">Resume</a></text></div>
+        <div class="col-12 col-lg-12 col-md-4 pt-1 mb-3 text-center"><text class='inter-b'><a class='black-blue' href="mailto:alexandra_mcintyre@brown.edu" target="_blank">Email</a></text></div>
+        <div class="col-12 col-lg-12 col-md-4 pt-1 mb-3 text-center"><text class='inter-b'><a class='black-blue' href="https://github.com/alexandra-mcintyre" target="_blank">GitHub</a></text></div>
+        </div>
+    </div>
+        
+            <div class="col-1 d-none d-lg-block"><img src="images/Happy.png" alt="Smiley face emoji"></div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row mt-4"><text class="inter-h">My Projects:</text></div>
+        <div class="row mt-3 mb-3 m-4 justify-content-between">
+            <div class="col-12 col-md-5">
+                <div class="case-study pb-3">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#studyModal">
+                    <img class="img-fluid custom-rounded mb-1" src="images/study_spot.png" alt="Study spot generator">
+                </a>
+                <text class="inter">Study Spot Generator (Programming Project)</text>
+            </div>
+        </div>
 
+            <div class="col-12 col-md-5">
+                <div class="case-study pb-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#seedModal">
+                    <img class='img-fluid custom-rounded mb-1' src="images/seed_cafe.png" alt="Seed cafe redesign">
+                </a>
+                    <text class="inter">Redesign of Seed Cafe’s Webpage</text>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2 mb-4 m-4 justify-content-between">
+            <div class="col-12 col-md-5">
+                <div class="case-study pb-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#tamModal">
+                        <img class='img-fluid custom-rounded mb-1' src="images/Copilot Edit.png" alt="Tamlabs ai design">
+                    </a><text class="inter">Iterative Design for TamLabs.ai</text>
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="case-study pb-2">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#launModal">
+                    <img class='img-fluid custom-rounded mb-1 small' src="images/pink_kiosk.png" alt="Brown U laundry interface study"></a>
+                    <text class="inter">Study on Usability of Brown University Laundry Service Machines</text>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+
+<!-- Study Spot generator modal -->
+<div class="modal fade" id="studyModal" tabindex="-1" aria-labelledby="studyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="studyModalLabel"><ul class="popup-h">Study Spot Generator: Term project from Intro to Software Engineering (CS 320).</ul>
+                <ul class="popup-h2">Team: Kevin Luo, Mara Oancea, and Nishani Clarke:</ul></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row"><div class="col-12"><img src="images/study_spot_ex.png" class="img-fluid mb-3" alt="Study Spot example"></div>
+        <div class="col-12 "><img src='images/study_spot_main.png' class="img-fluid mb-3" alt='Main page'></div></div>
+        <ul>
+            <li><b>Problem: </b>Students at Brown often find it difficult/time-consuming to find a study spot that meets their needs</li>
+            <li><b>Our solution:</b> A Study Spot Generator where a user enters their preferences (e.g., noise level, walking distance, atmosphere), and gets matched with an optimized study spot recommendation, ensuring high satisfaction.</li>
+            <li><b>My role:</b> Implemented backend matching algorithm, implemented API calls using IPStack to access user location, utilized Firestore to store user preferences and favorite study spots between consecutive logins, and integrated Firestore and Clerk to build a secure login system and ensure personalized experiences.</li>
+            <li><b>My process:</b> I began by analyzing how users make decisions about study spaces, translating these preferences into concrete parameters that 
+              could be used algorithmically. I designed the backend to balance logic and nuance—using conditionally weighted matching to interpret inputs like "atmosphere" or "noise level". I used Firestore to structure persistent user data, enabling learning over time (e.g., remembering favorites or adapting to frequent choices). 
+              As someone passionate about the intersection of intelligence and creative spirit, I loved experimenting with how we could encode personality and vibe into data—abstracting subjective experiences into a 
+              form that still respected the messiness of human preference. Debugging and optimizing API integration also challenged me to think flexibly across layers of the stack, ensuring fast, personalized, and secure recommendations every time a user logs in.</li>
+        </ul>
+        <a href="https://github.com/alexandra-mcintyre/study-spot-generator-aemcinty-khluo-moancea-nclarke1" target="_blank" class="btn"
+   style="background-color: #D22FB1; color: white; border: none;">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Seed cafe modal -->
+<div class="modal fade" id="seedModal" tabindex="-1" aria-labelledby="seedModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="seedModalLabel"><ul class="popup-h">Redesign of Seed Cafe’s Webpage</ul></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/redesign_cover.png" class="img-fluid mb-3" alt="Responsive Redesign Project Overview">
+        <p><b>My process:</b> I began by identifying usability and branding issues on the original Seed Cafe site, then created a consistent Figma prototype with cohesive colors, typography, and layout. I restructured key content 
+          like hours and menu for better visibility, enhanced the cafe’s online identity with custom visuals, and emphasized improvement of visual hierarchy. By combining thoughtful visual design with accessibility principles, I created a site that’s not only more intuitive and inclusive, but also reflects the cafe’s unique identity with clarity and charm. I ensured the website was accessible by testing for color contrast, tab navigation, and responsiveness on three different screen sizes.</p>
+        <a href="https://alexandra-mcintyre.github.io/responsive-redesign/" target="_blank" class="btn"
+   style="background-color: #D22FB1; color: white; border: none;">View Project</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- tamlabs modal -->
+<div class="modal fade" id="tamModal" tabindex="-1" aria-labelledby="tamModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tamModalLabel"><ul class="popup-h">Iterative Design for TamLabs.ai</ul> 
+            <ul class="popup-h2">Team: Rowe Stodolnic, Andrew Herring, and Maria Chavez Zapata</ul></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/Tamlabs_proj.png" class="img-fluid mb-3" alt="Tamlabs project cover">
+          <p><b>My role:</b> My main contributions to this project consisted of analyzing user results and constructing a practical visual hierarchy.</p>
+          <p><b>My process:</b> I approached the TamLabs design project with a focus on translating complex AI functionality into a user-friendly, intuitive experience—drawing on my passion for merging creative design with intelligent systems. After initial sketches and team critique, I took the lead on establishing a clear visual hierarchy that would guide users through the Copilot’s features without overwhelming them. I conducted user testing and analyzed feedback to refine layout and interactions, ensuring the interface supported a seamless document editing experience within Word. My goal was to make the AI assistant feel both powerful and accessible, bridging usability with technical sophistication through thoughtful design choices.</p>
+        <a href="https://rowestoli.github.io/Iterative-Design-TamLabs/" target="_blank" class="btn"
+   style="background-color: #D22FB1; color: white; border: none;">View Project</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- laundry service -->
+<div class="modal fade" id="launModal" tabindex="-1" aria-labelledby="launModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="launModalLabel"><ul class="popup-h">Study on Usability of Brown University Laundry Service Machines</ul></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/laundry_cover.png" class="img-fluid mb-3" alt="Laundry interface case study cover">
+        <p><b>My process:</b> I conducted a detailed investigation into how Brown students interact with the laundry service interface. By observing users and identifying their key pain points, I developed two distinct personas that capture the different user experiences. I then created a storyboard for one of these personas, using it as a narrative tool to guide creative design recommendations aimed at making the interface more intuitive.</p>
+        <a href="https://alexandra-mcintyre.github.io/personas/" target="_blank" class="btn"
+   style="background-color: #D22FB1; color: white; border: none;">View Project</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

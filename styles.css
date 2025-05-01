@@ -1,0 +1,246 @@
+.fuzzy-bubbles-regular {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 35px;
+}
+
+
+.fuzzy-bubbles-med {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-size: 24px;
+}
+
+.fuzzy-bubbles-big {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fuzzy-bubbles-b {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-size: 20px;
+}
+
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.inter-h {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+
+ul{
+  line-height: 25px;
+}
+
+.popup-h{
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  text-align: center;
+  line-height: 25px;
+}
+
+.popup-h2{
+  font-size: 19px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  text-align: center;
+  line-height: 25px;
+}
+
+.inter-b {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  text-align: center;
+}
+
+.body{
+    background-image: url('images/Mockup.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #FD96E8;
+}
+
+.name{
+    width: 70%;
+    height: auto;
+2
+}
+
+.black{
+    color: black;
+}
+
+.black-blue{
+    color: black;
+}
+
+
+.black-blue:hover{
+    color: #388af6;
+    }
+
+a:hover {
+  color: #D22FB1;
+  background-color: transparent;
+
+}
+
+
+
+.podcast-display{
+    position: relative; /* this is key! */
+    width: fit-content;     /* match the size of your images */
+    height: auto;
+
+}
+
+/* .play-button{
+    position: absolute;
+    top: 91%;   
+    left: 50%;  
+    transform: translate(-50%, -50%); 
+    width: 35%; 
+    height: auto;
+} */
+
+.play-button {
+  position: absolute;
+  top: 91%;   
+  left: 50%;  
+  width: 125px;
+  height: 40px;
+  transform: translate(-50%, -50%); 
+  background-image: url("images/play_button.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+}
+
+.play-button:hover,
+.play-button:focus {
+  background-image: url("images/play_blue.png");
+}
+
+
+.case-study{
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 12px;
+  padding-bottom: 6px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.case-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6); /* Dimming effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.case-popup {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: scroll;
+  text-align: left;
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.case-study:hover .case-overlay {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+.custom-rounded {
+    border-radius: 20px; /* or whatever value you want */
+}
+
+.mb-6 {
+    margin-bottom: 6rem !important;
+  }
+  .mb-7 {
+    margin-bottom: 7rem !important;
+  }
+/* .container{
+    margin-left: none;
+} */
+
+
+@media (max-width: 768px) {
+    .inter {
+      font-size: 20px; /* Smaller on tablets */
+    }
+    .fuzzy-bubbles-regular{
+      font-size: 16px;
+      line-height: 25px;
+    }
+    .container{
+      max-width: 800px !important;;
+    }
+    .name{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .inter {
+      font-size: 18px;
+      line-height: 22px; /* Even smaller on phones */
+    }
+
+    .container{
+      max-width: 800px !important;
+    }
+
+    .name{
+      width: 100%;
+    }
+    .img-fluid{
+      max-width: 90% !important;
+      margin: 20px;
+    }
+
+    .inter-h{
+      font-size: 25px;
+    }
+
+    .play-button {
+      top: 88%;
+    }
+  }
